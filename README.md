@@ -6,12 +6,12 @@ This project mainly uses FastAI library provided by Jeremy Howard.
 This repository contains two Jupyter Notebook files - Actual.ipynb and submission.ipynb
 
 Actual.ipynb
-> full steps taken in arriving at the best Random Forest model
-> shows full thought process in preliminary processing, preprocessing, training, tunning, interpreting and finalising my model
-> best Validation score is 0.6267297769674376 > could not check for test score due to nature of this Kaggle competition
-> there are some error cells which can be ignored >> the errors are due to incomplete re-runs of notebook
+* full steps taken in arriving at the best Random Forest model
+* shows full thought process in preliminary processing, preprocessing, training, tunning, interpreting and finalising my model
+* best Validation score is 0.6267297769674376 > could not check for test score due to nature of this Kaggle competition
+* there are some error cells which can be ignored >> the errors are due to incomplete re-runs of notebook
 
 submission.ipynb
-> the file submitted as a Kaggle notebook
-> contains only necessary codes
-> excludes reasoning, EDA and any unnecessary codes that do not directly lead to the final model
+* the file submitted as a Kaggle notebook
+* contains only necessary codes
+* excludes reasoning, EDA and any unnecessary codes that do not directly lead to the final model
