@@ -9,7 +9,8 @@ Actual.ipynb
 * full steps taken in arriving at the best Random Forest model
 * shows full thought process in preliminary processing, preprocessing, training, tunning, interpreting and finalising my model
 * best Validation score is 0.6267297769674376 > could not check for test score due to nature of this Kaggle competition
-* there are some error cells which can be ignored >> the errors are due to incomplete re-runs of notebook
+* there are some error cells which can be ignored >> some error cells are purposely targeted for testing and debugging
+* added explanations to my codes
 
 submission.ipynb
 * the file submitted as a Kaggle notebook
