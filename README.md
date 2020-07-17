@@ -5,7 +5,7 @@ This is my first Machine Learning project, first Python project and first upload
 This project mainly uses FastAI library provided by Jeremy Howard.
 This repository contains two Jupyter Notebook files - Actual.ipynb and submission.ipynb
 
-Actual.ipynb
+actual.ipynb
 * full steps taken in arriving at the best Random Forest model
 * shows full thought process in preliminary processing, preprocessing, training, tunning, interpreting and finalising my model
 * best Validation score is 0.6267297769674376 > could not check for test score due to nature of this Kaggle competition
