@@ -1,6 +1,6 @@
 # Kaggle DSBowl 2019
 
-First machine learning project implemented to test my knowledge of Random Forest Classifier as introduced in FastAI's introduction to machine learning course.
+This is my first machine learning project implemented to test my knowledge of Random Forest Classifier as introduced in FastAI's introduction to machine learning course.
 
 There are two notebooks in this project.  
 * actual.ipynb - The full steps I've taken (including debugging and reasoning)
