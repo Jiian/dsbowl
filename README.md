@@ -1,6 +1,6 @@
 # Kaggle DSBowl 2019
 
-This is my first machine learning project implemented to test my knowledge of Random Forest Classifier as introduced in FastAI's introduction to machine learning course.
+This is my first machine learning project implemented to test my knowledge of the Random Forest Classifier as introduced in FastAI's introduction to machine learning course.
 
 There are two notebooks in this project.  
 * actual.ipynb - The full steps I've taken (including debugging and reasoning)
@@ -17,6 +17,8 @@ There are two notebooks in this project.
 
 The goal of this project is to classify the accuracy_group of a participant based on the results of the games he/she has played.
 
+More information can be acquired [here](https://www.kaggle.com/c/data-science-bowl-2019/data).
+
 ## Data Cleaning
 1. Inner merge the training features with the training labels (to form 865k observations, on 16 columns).  
 <img src="images/innermerge.png">
@@ -24,7 +26,7 @@ The goal of this project is to classify the accuracy_group of a participant base
 <img src="images/feather.png">
 3. Unecessary or non-predictive columns were dropped. New dataframe is saved.  
 <img src="images/drop.png">  
-Some of these variables are not provided in the test set. They were provided for informational purposes or as intermediate prediction labels.
+Some of these variables are not provided in the test set. They were provided for informational purposes or as intermediate prediction labels.  
 4. event_data column is of JSON format, containing multiple types of information within.  
 <img src="images/json.png">  
 5. Some columns have list elements as their entries, using the explode function, each element in the list is given a new row.
@@ -55,11 +57,13 @@ These steps will not be explicitly mentioned below.
 <img src="images/featimp.png">  
 Feature importance is a great feature of Random Forest Classifier or Regressor. By plotting the feature importance, I was able to identify significant variables to help predict the accuracy_group.
 
+
 I retained only variables with feature importance greater than 0.010, corresponding to 15 variables.  
 <img src="images/sigcols.png">  
 
 Again, a simple Random Forest Classifier model is fitted and evaluated on this new dataset.  
 <img src="images/trialrun2.png">  
+
 The only improvement is that significantly less time is needed to train the model. In general, the less features we retain, the poorer the prediction.  
 <img src="images/featimptab.png">  
 
